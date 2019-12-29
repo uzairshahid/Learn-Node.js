@@ -1,11 +1,18 @@
 {
-  "description": "A project that does something awesome",
-  "version": "0.1.0",
-  "author": "Jane Doe",
   "name": "fcc-learn-npm-package-json",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "uzair",
+  "dependencies": {
+    "express": "^4.14.0"
   },
-  "license": "ISC"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
